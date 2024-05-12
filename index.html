@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Delivery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Pizza Delivery</h1>
+    <img src="logo.png" alt="Pizza Delivery Logo">
+  </header>
+  <main>
+    <!-- Menu Section -->
+    <section id="menu">
+      <h2>Menu</h2>
+      <!-- Pizza items will be dynamically generated here -->
+    </section>
+    <!-- Cart Section -->
+    <section id="cart">
+      <h2>Cart</h2>
+      <!-- Cart items will be dynamically generated here -->
+      <form id="checkout-form">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" required>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="address">Address:</label>
+        <input type="text" id="address" required>
+        <label for="comment">Comment for Courier:</label>
+        <textarea id="comment"></textarea>
+        <button type="submit">Checkout</button>
+      </form>
+    </section>
+    <!-- Payment Section -->
+    <section id="payment">
+      <h2>Payment</h2>
+      <!-- Payment form will be dynamically generated here -->
+    </section>
+    <!-- Order Tracking Section -->
+    <section id="order-tracking">
+      <h2>Order Tracking</h2>
+      <!-- Order tracking map and details will be dynamically generated here -->
+    </section>
+    <!-- Feedback Section -->
+    <section id="feedback">
+      <h2>Feedback</h2>
+      <!-- Feedback form will be dynamically generated here -->
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
